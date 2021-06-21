@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	padding-top: 5px;
+	background: rgba(255, 255, 255, 0.6);
+	right: 0;
+	left: 0;
+	align-items: center;
+}
+
+.logo {
+	font-size: 5vw;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 10px;
+}
+
+.jap {
+	cursor: pointer;
+	width: 2vw;
+	margin-left: auto;
+	margin-right: 10vw;
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-weight: 1000;
+	font-size: 10vw;
+}
+
+.jap:hover {
+	color: white;
+}
+
+.menu {
+	width: 0%;
+	right: 0;
+	top: 0;
+	min-height: 100vh;
+	background: rgba(143, 143, 143, 0.88);
+	padding-bottom: 10vw;
+	transition: all 0.5s ease;
+	position: fixed;
+}
+
+.menu hr {
+	width: 70%;
+	margin: 7vh auto;
+	background: grey;
+	height: 1px;
+}
+
+.menu li {
+	text-transform: uppercase;
+	font-family: "GothamProBold";
+	text-align: center;
+	font-size: 7vw;
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	color: white;
+}
+
+.ham-menu {
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.ham-menu div {
+	content: '';
+	height: 2vw;
+	width: 12vw;
+	background: black;
+	margin: 6px;
+	border-radius: 10px;
+}
+
+.bas {
+	background: url("./images/fon-mobile.jpg") center / cover no-repeat;
+	padding-bottom: 5vw;
+}
+
+.tx {
+	font-size: 3.47vw;
+	font-family: "GothamPro";
+}
+
+.tx p {
+	margin-bottom: 2vw;
+}
+
+.bas-soz {
+	font-family: "GothamProBold";
+	font-size: 8.3vw;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.fip {
+	font-size: 6.25vw;
+	color: white;
+	text-shadow: 0 0 3em black;
+}
+
+.fip .quote {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-weight: 1000;
+	width: 77.7vw;
+	margin-left: 3vw;
+}
+
+.fip .author {
+	font-family: 'Ubuntu', sans-serif;
+	width: 35vw;
+	font-weight: 1000;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.content {
+	margin-top: 3vw;
+}
+
+.box1 {
+	display: flex;
+	align-items: center;
+}
+
+.text1 {
+	width: 62.5vw;
+}
+
+.selfie img {
+	width: 29.8vw;
+}
+
+.box2 {
+	width: 90.27vw;
+	margin: 0 auto;
+}
+
+.text2 {
+	width: 68.8vw;
+	margin-right: 3px;
+}
+
+.suret img {
+	width: 25.83vw;
+}
+
+.box3 {
+	display: flex;
+	align-items: center;
+	width: 90.27vw;
+	margin: 0 auto;
+}
+
+.box4 {
+	width: 90.27vw;
+	margin: 0 auto;
+}
+
+.etapy ol {
+	margin-top: 1vw;
+	margin-left: 5vw;
+}
+
+.maimaq {
+	font-family: "GothamProBold";
+}
+
+.text3 {
+	width: 66.6vw;
+	margin-left: 3vw;
+}
+
+.box5 {
+	display: flex;
+	align-items: center;
+	width: 90.27vw;
+	margin: 3vw auto 0;
+}
+
+.box6 {
+	width: 90.27vw;
+	margin: 0 auto;
+}
+
+footer {
+	background: black;
+	display: flex;
+}
+
+.contacts {
+	padding-top: 2.08vw;
+	margin-left: 3.385vw;
+}
+
+.contacts li {
+	font-family: "GothamPro";
+	margin-bottom: 0.7vw;
+	font-weight: 100;
+	font-size: 3.47vw;
+}
+
+.contacts li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 2.08vw;
+}
+
+.contacts li a {
+	color: white;
+	text-decoration: none;
+}
+
+.auth {
+	color: white;
+	margin-left: auto;
+	margin-right: 0.5vw;
+	margin-top: auto;
+	font-family: "GothamProBlack";
+	font-size: 8.3vw;
+}
+
+#disc {
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 3.47vw;
+	font-family: "GothamPro";
+}

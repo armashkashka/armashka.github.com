@@ -33,6 +33,11 @@ html {
 	font-family: "GothamPro";
 	font-size: 1.3vw;
 	margin-right: 5.3vw;
+	transition: all 0.3s ease;
+}
+
+.menu a:hover {
+	color: white;
 }
 
 .logo {
@@ -209,4 +214,13 @@ footer {
 	margin-top: auto;
 	font-family: "GothamProBlack";
 	font-size: 3.125vw;
+}
+
+#disc {
+	cursor: pointer;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 1.5vw;
+	font-family: "GothamPro";
 }
