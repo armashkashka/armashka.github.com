@@ -14,7 +14,7 @@ function check() {
 		var str = window.location.href;
 		console.log(str);
 		if (str == "") return;
-		while (str.charAt(str.length - 1) != '/') str = str.substring(0, str.length - 1);
+		while (str.charAt(str.length - 1) != '/') str = str.slice(0, -1);
 		str += "index.html";
 		window.location.replace(str)
 		console.log(str);
