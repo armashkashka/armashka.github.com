@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .header {
 	display: flex;
 	padding-top: 5px;
