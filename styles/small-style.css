@@ -14,6 +14,8 @@ html {
 	right: 0;
 	left: 0;
 	align-items: center;
+	position: fixed;
+	top: 0;
 }
 
 .logo {
@@ -90,6 +92,7 @@ html {
 
 .bas {
 	background: url("./images/fon-mobile.jpg") center / cover no-repeat;
+	padding-top: 5vw;
 	padding-bottom: 5vw;
 }
 
@@ -132,7 +135,7 @@ html {
 }
 
 .content {
-	margin-top: 3vw;
+	margin-top: 7vw;
 }
 
 .box1 {
